@@ -8,6 +8,21 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- data_bindings: []
+  layout_properties: {slot: title}
+  name: Tittle
+  properties:
+    align: center
+    bold: true
+    font: ''
+    font_size: 31
+    italic: true
+    spacing:
+      padding: [8, 12, null, null]
+    text: Fitness for All
+    underline: false
+    visible: true
+  type: Label
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
